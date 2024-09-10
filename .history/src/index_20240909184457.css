@@ -1,0 +1,13 @@
+summary {
+    font-size: 50px;
+    text-align: left;
+}
+
+button {
+    margin: 20px;
+    border-style: none;
+}
+
+p {
+    font-size: 20px;
+}

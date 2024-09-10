@@ -1,0 +1,12 @@
+summary {
+    font-size: 50px;
+    text-align: left;
+}
+
+button {
+    margin: 20px;
+}
+
+summary p {
+    font-size: 50px;
+}

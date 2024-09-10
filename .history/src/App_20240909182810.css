@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  font-size: 40px;
+
+}
+
+.title {
+  margin: 0;
+}
+
+.main{
+ 
+}
+
+.split {
+position: fixed;
+height: 100%;
+width: 50%;
+overflow-x: hidden;
+padding-top: 20px;
+display: flex;
+padding: 10%;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  width: 60%;
+  right: 0;
+  background-color: red;
+}
