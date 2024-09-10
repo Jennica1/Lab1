@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/bbno$icon.jpg'
+import bbno$icon from '/images/bbno$icon.jpg'
 
 import './App.css'
 
@@ -13,12 +13,9 @@ function App() {
         <header className='header'>
           <h1 className='title'>bbno$'s Top Albums</h1>
         </header>
-
-      <div className='container'>
         <div className='split left'>
           <img src="/images/bbno$_profile.webp" alt='bbno$' />
         </div>
-
         <div className='split right'>
           <div className='albums'>
             <h2 className='subtitle'>Popular</h2>
@@ -48,7 +45,6 @@ function App() {
             </button>
           </div>
         </div>
-      </div>
       </body>
 
 

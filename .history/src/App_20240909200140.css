@@ -4,7 +4,7 @@
 }
 
 .header {
-  font-size: 30px;
+  font-size: 40px;
 
 }
 
@@ -15,7 +15,7 @@
 }
 
 .subtitle {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -26,16 +26,21 @@
 
 }
 
-.container {
+.split {
+width: 50%;
 display: flex;
-flex-wrap: wrap;
-z-index: -1;
+flex-direction: row;
 }
 
 .left {
-  width: fit-content;
+  left: 0;
+  margin-left: 20px;
+  background-color: #111;
 }
 
 .right {
-width: fit-content;
+  padding-left: 20px;
+  width: 60%;
+  right: 0;
+  background-color: white;
 }

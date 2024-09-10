@@ -14,7 +14,7 @@ function App() {
           <h1 className='title'>bbno$'s Top Albums</h1>
         </header>
 
-      <div className='container'>
+      <div>
         <div className='split left'>
           <img src="/images/bbno$_profile.webp" alt='bbno$' />
         </div>
